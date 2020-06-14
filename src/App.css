@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+/* Remove default bullets */
+ul,
+#myUL {
+  list-style-type: none;
+  padding-inline-start: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Remove margins and padding from the parent ul */
+#myUL {
+  margin: 10;
+  padding: 10;
+}
+/* Style the caret/arrow */
+.caret {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  content: "\0025B6";
+  font-size: 10px;
+  color: darkgrey;
+  display: inline-block;
+  margin-right: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+  transform: rotate(90deg);
 }
 
-.App-link {
-  color: #61dafb;
+/* Hide the nested list */
+.nested {
+  display: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
 }
