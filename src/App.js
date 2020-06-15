@@ -9,50 +9,68 @@ class App extends Component {
     this.state = {
       items: [
         {
-          type: "ul", title: "ردیف 1", classNameSpan: "caret", classNameUl: "nested", subicons: "mdi-checkbox-blank-circle",
+          type: "ul", title: "1", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi-checkbox-blank-circle",
           subMenu:
             [
-              { type: "li", title: "زیر شاخه 1", subicons: "mdi mdi-chart-pie" },
-              { type: "li", title: "زیر شاخه 2", subicons: "mdi mdi-chart-pie" },
-              { type: "li", title: "زیر شاخه 3", subicons: "mdi mdi-chart-pie" },
-              { type: "li", title: "زیر شاخه 4", subicons: "mdi mdi-chart-pie" },
-              { type: "li", title: "زیر شاخه 1", subicons: "mdi mdi-chart-pie" },
-              { type: "li", title: "زیر شاخه 2", subicons: "mdi mdi-chart-pie" },
-              { type: "li", title: "زیر شاخه 3", subicons: "mdi mdi-chart-pie" }
-            ]
-        },
-        {
-          type: "ul", title: "ردیف 2", classNameSpan: "caret", classNameUl: "nested", subicons: "mdi-checkbox-blank-circle",
-          subMenu:
-            [
-              { type: "li", title: "زیر شاخه 1", subicons: "mdi mdi-checkbox-blank-circle-outline" },
-              { type: "li", title: "زیر شاخه 2", subicons: "mdi mdi-checkbox-blank-circle-outline" },
-              { type: "li", title: "زیر شاخه 3", subicons: "mdi mdi-checkbox-blank-circle-outline" },
-              { type: "li", title: "زیر شاخه 4", subicons: "mdi mdi-checkbox-blank-circle-outline" }
-            ]
-        },
-        {
-          type: "ul", title: "ردیف 3", classNameSpan: "caret", classNameUl: "nested", subicons: "mdi-checkbox-blank-circle",
-          subMenu:
-            [
-              { type: "li", title: "زیر شاخه 1", subicons: "mdi mdi-checkbox-blank-circle-outline" },
-              { type: "li", title: "زیر شاخه 2", subicons: "mdi mdi-checkbox-blank-circle-outline" },
-              { type: "li", title: "زیر شاخه 3", subicons: "mdi mdi-checkbox-blank-circle-outline" },
+              { type: "li", title: "11", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-chart-pie" },
+              { type: "li", title: "12", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-chart-pie" },
               {
-                type: "li", title: "زیر شاخه 4 ", classNameSpan: "caret", classNameUl: "nested", subicons: "mdi mdi-checkbox-blank-circle-outline",
+                type: "li", title: "13", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-chart-pie",
+                subMenu:
+                  [
+                    { type: "li", title: "130", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+                    { type: "li", title: "131", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+                    { type: "li", title: "132", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+                    { type: "li", title: "133", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" }
+                  ]
+              },
+              { type: "li", title: "14", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-chart-pie" },
+              {
+                type: "li", title: "15", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-chart-pie",
+                subMenu:
+                  [
+                    { type: "li", title: "150", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+                    { type: "li", title: "151", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+                    { type: "li", title: "152", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+                    { type: "li", title: "153", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" }
+                  ]
+              },
+              { type: "li", title: "16", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-chart-pie" },
+              { type: "li", title: "17", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-chart-pie" }
+            ]
+        },
+        {
+          type: "ul", title: "2", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi-checkbox-blank-circle",
+          subMenu:
+            [
+              { type: "li", title: "20", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+              { type: "li", title: "21", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+              { type: "li", title: "22", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+              { type: "li", title: "23", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" }
+            ]
+        },
+        {
+          type: "ul", title: "3", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi-checkbox-blank-circle",
+          subMenu:
+            [
+              { type: "li", title: "30", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+              { type: "li", title: "31", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+              { type: "li", title: "32", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+              {
+                type: "li", title: "33 ", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline",
                 subMenu:
                   [
                     {
-                      type: "li", title: " 1ژیر شاخه اخر", classNameSpan: "caret", subicons: "mdi mdi-checkbox-marked-circle-outline",
+                      type: "li", title: " 1ژیر شاخه اخر", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-marked-circle-outline",
                       subMenu:
                         [
-                          { type: "li", title: " 2ژیر شاخه اخر", subicons: "mdi mdi-checkbox-marked-circle-outline" },
-                          { type: "li", title: " 2ژیر شاخه اخر", subicons: "mdi mdi-checkbox-marked-circle-outline" },
-                          { type: "li", title: " 2ژیر شاخه اخر", subicons: "mdi mdi-checkbox-marked-circle-outline" },
+                          { type: "li", title: " 2ژیر شاخه اخر", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-marked-circle-outline" },
+                          { type: "li", title: " 2ژیر شاخه اخر", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-marked-circle-outline" },
+                          { type: "li", title: " 2ژیر شاخه اخر", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-marked-circle-outline" },
                         ]
                     },
-                    { type: "li", title: " 2ژیر شاخه اخر", subicons: "mdi mdi-checkbox-marked-circle-outline" },
-                    { type: "li", title: " 3ژیر شاخه اخر", subicons: "mdi mdi-checkbox-marked-circle-outline" },
+                    { type: "li", title: " 2ژیر شاخه اخر", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-marked-circle-outline" },
+                    { type: "li", title: " 3ژیر شاخه اخر", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-marked-circle-outline" },
 
                   ]
               }
@@ -61,12 +79,12 @@ class App extends Component {
       ]
     }
   }
-  rendersSubmenu = (o) => {
+  rendersSubmenu = (data) => {
     debugger
-    return (<ul className={o.classNameUl}>
-      {o.subMenu.map(n => {
+    return (<ul className={data.classNameUl}>
+      {data.subMenu.map(n => {
         return (
-          <li className={n.subMenu ? o.classNameSpan : null}><span className={n.subicons} />{n.title}{n.subMenu ? (this.rendersSubmenu(n)) : null}</li>
+          <li className={n.subMenu ? n.classNameSpan : ""}><span className={n.Icons ? n.Icons : ""} />{n.title}{n.subMenu ? (this.rendersSubmenu(n)) : null}</li>
         )
       })}
     </ul>
@@ -77,7 +95,7 @@ class App extends Component {
     return (
       items.map((o, i) => {
         return (
-          <li><span className={o.classNameSpan}><span className={o.subicons} />{o.title}</span>
+          <li><span className={o.classNameSpan ? o.classNameSpan : ""}><span className={o.Icons} />{o.title}</span>
             {o.subMenu ? this.rendersSubmenu(o) : null}</li>
         )
       })
