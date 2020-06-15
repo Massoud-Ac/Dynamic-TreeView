@@ -29,10 +29,10 @@ class App extends Component {
                 type: "li", title: "15", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-chart-pie",
                 subMenu:
                   [
-                    { type: "li", title: "150", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
-                    { type: "li", title: "151", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
-                    { type: "li", title: "152", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
-                    { type: "li", title: "153", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" }
+                    { type: "li", title: "150", classNameSpan: "caret 1", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+                    { type: "li", title: "151", classNameSpan: "caret 1", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+                    { type: "li", title: "152", classNameSpan: "caret 1", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" },
+                    { type: "li", title: "153", classNameSpan: "caret 1", classNameUl: "nested", Icons: "mdi mdi-checkbox-blank-circle-outline" }
                   ]
               },
               { type: "li", title: "16", classNameSpan: "caret", classNameUl: "nested", Icons: "mdi mdi-chart-pie" },
